@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Inicio</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Bienvenido</h2>
+
+    <!-- Botones centrados -->
+    <div class="button-row">
+      <form action="login.php" method="post" class="login-form">
+        <input type="text" name="username" placeholder="Usuario" required>
+        <input type="password" name="password" placeholder="Contraseña" required>
+        <button type="submit">Iniciar Sesión</button>
+      </form>
+
+      <form action="register.php" method="get">
+        <button type="submit">Registrarse</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
+
